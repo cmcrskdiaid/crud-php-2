@@ -33,7 +33,7 @@ FLUSH PRIVILEGES;
 "
 
 # Exécution du script SQL
-mysql -h $DB_HOST -u $DB_ROOT_USER -p$DB_ROOT_PASS -e "$SQL_SCRIPT"
+sudo mysql -h $DB_HOST -u $DB_ROOT_USER -p$DB_ROOT_PASS -e "$SQL_SCRIPT"
 
 # Vérification
 if [ $? -eq 0 ]; then
@@ -41,3 +41,4 @@ if [ $? -eq 0 ]; then
 else
     echo "Erreur lors de la création de la base de données, de la table ou de l'utilisateur."
 fi
+
