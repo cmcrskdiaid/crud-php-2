@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 
     $stmt->close();
-    header("Location: ./index.php");
+    header("Location: https://crud-php-2.azurewebsites.net/index.php");
     exit;
 }
 // ?>
@@ -51,5 +51,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     </form>
 </body>
 </html>
+
 
 
