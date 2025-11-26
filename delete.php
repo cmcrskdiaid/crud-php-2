@@ -9,5 +9,4 @@ if (isset($_GET['matricule'])) {
 // Après suppression, retour à la liste
 header("Location: index.php");
 exit;
-
-// ?>
+?>
