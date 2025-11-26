@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     header("Location: https://crud-php-2.azurewebsites.net/index.php");
     exit;
 }
-// ?>
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -51,6 +51,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     </form>
 </body>
 </html>
+
 
 
 
