@@ -1,0 +1,27 @@
+
+DB_NAME="entreprise"
+APP_USER="appuser"
+APP_PASS="motdepasse"     
+
+CREATE DATABASE entreprise;
+
+USE entreprise;
+
+CREATE TABLE employes (
+    matricule INT AUTO_INCREMENT PRIMARY KEY,
+    prenom VARCHAR(50) NOT NULL,
+    nom VARCHAR(50) NOT NULL,
+    age INT NOT NULL,
+    department VARCHAR(100) NOT NULL,
+    poste VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE
+);
+
+
+CREATE USER IF NOT EXISTS 'appuser'@'%' IDENTIFIED BY 'motdepasse';
+
+GRANT ALL PRIVILEGES ON entreprise.* TO 'appuser'@'%';
+
+FLUSH PRIVILEGES;
+
+
