@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     header("Location: index.php");
     exit;
 }
-?>
+// ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -35,4 +35,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <button type="submit">Enregistrer</button>
     </form>
 </body>
+
 </html>
