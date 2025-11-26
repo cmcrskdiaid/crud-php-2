@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $conn->query($sql);
     header("Location: index.php");
     exit;
-}  
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -37,4 +37,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </body>
 
 </html>
+
 
