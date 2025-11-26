@@ -1,5 +1,5 @@
 <?php
-$host = "192.168.44.131";   // adresse IP du serveur MySQL
+$host = "crud-php-2.mysql.database.azure.com";   // adresse IP du serveur MySQL
 $user = "appuser";         // utilisateur MySQL dédié
 $pass = "motdepasse";      // mot de passe de l'utilisateur
 $db   = "entreprise";      // nom de la base de données
@@ -11,3 +11,4 @@ if ($conn->connect_error) {
 }
 
 ?>
+
