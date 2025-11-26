@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS employes (
 
 -- Création de l'utilisateur dédié
 CREATE USER IF NOT EXISTS '$APP_USER'@'%' IDENTIFIED BY '$APP_PASS';
-# CREATE USER IF NOT EXISTS 'appuser'@'%' IDENTIFIED BY 'motdepasse';
+
 
 -- Attribution des privilèges sur la base
 GRANT ALL PRIVILEGES ON $DB_NAME.* TO '$APP_USER'@'%';
