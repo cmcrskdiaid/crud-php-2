@@ -1,8 +1,3 @@
-
-DB_NAME="entreprise"
-APP_USER="appuser"
-APP_PASS="motdepasse"     
-
 CREATE DATABASE entreprise;
 
 USE entreprise;
